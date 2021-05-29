@@ -8,7 +8,13 @@ import java.util.HashSet;
  */
 
 public class HasTargetSumPair {
-
+  /**
+   * Boolean method to check for the HasTargetSumPair is correct.
+   * 
+   * @param list of array of integers
+   * @param target is the target integer of sum of two number from the list
+   * @return boolean result whether it meets the condition.
+   */
   public boolean hasTargetSumPair(int[] list, int target) {
     // HashSet is a collection of items where every item is unique.
     HashSet<Integer> set = new HashSet();
