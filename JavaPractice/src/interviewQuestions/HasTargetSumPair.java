@@ -10,14 +10,16 @@ import java.util.HashSet;
 public class HasTargetSumPair {
 
   public boolean hasTargetSumPair(int[] list, int target) {
-
+    // HashSet is a collection of items where every item is unique.
     HashSet<Integer> set = new HashSet();
     for (int number : list) {
+      // if the if statement meet the condition it will return true instead of add the number into
+      // the set.
       if (set.contains(target - number)) {
         return true;
       }
+      // if statement is not meeting the condition then the number is add to set.
       set.add(number);
-      System.out.println(set);
     }
     return false;
   }
