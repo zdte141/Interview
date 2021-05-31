@@ -6,13 +6,13 @@ import org.junit.Test;
 import interviewQuestions.Palindrome;
 
 public class TestPalindrome {
-
-
+  // test if there is the corresponding class exist.
   @Before
   public void testClass() {
     Palindrome palindrome = new Palindrome();
   }
 
+  // test case to check for the method is working
   @Test
   public void testPalindromeNumber() {
     Palindrome test = new Palindrome();
