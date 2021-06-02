@@ -1,9 +1,10 @@
 package test;
 
-import static org.junit.Assert.assertTrue;
+import interviewQuestions.HasTargetSumPair;
 import org.junit.Before;
 import org.junit.Test;
-import interviewQuestions.HasTargetSumPair;
+
+import static org.junit.Assert.assertTrue;
 
 public class TestHasTargetSumPair {
   /**

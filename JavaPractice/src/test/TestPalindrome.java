@@ -1,9 +1,10 @@
 package test;
 
-import static org.junit.Assert.assertTrue;
+import interviewQuestions.Palindrome;
 import org.junit.Before;
 import org.junit.Test;
-import interviewQuestions.Palindrome;
+
+import static org.junit.Assert.assertTrue;
 
 public class TestPalindrome {
   // test if there is the corresponding class exist.

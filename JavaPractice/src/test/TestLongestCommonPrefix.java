@@ -1,9 +1,10 @@
 package test;
 
-import static org.junit.Assert.assertTrue;
+import interviewQuestions.LongestCommonPrefix;
 import org.junit.Before;
 import org.junit.Test;
-import interviewQuestions.LongestCommonPrefix;
+
+import static org.junit.Assert.assertTrue;
 
 /**
  * Test class with method to run the TDD development.
