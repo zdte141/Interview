@@ -1,9 +1,10 @@
 package test;
 
-import static org.junit.Assert.assertTrue;
+import interviewQuestions.ReverseInteger;
 import org.junit.Before;
 import org.junit.Test;
-import interviewQuestions.ReverseInteger;
+
+import static org.junit.Assert.assertTrue;
 
 public class TestReverseInteger {
 

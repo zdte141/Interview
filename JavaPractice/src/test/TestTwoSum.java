@@ -1,10 +1,12 @@
 package test;
 
-import static org.junit.Assert.assertTrue;
-import java.util.Arrays;
+import interviewQuestions.TwoSum;
 import org.junit.Before;
 import org.junit.Test;
-import interviewQuestions.TwoSum;
+
+import java.util.Arrays;
+
+import static org.junit.Assert.assertTrue;
 
 public class TestTwoSum {
 
