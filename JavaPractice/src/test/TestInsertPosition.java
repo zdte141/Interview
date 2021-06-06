@@ -5,12 +5,24 @@ import org.junit.Before;
 import org.junit.Test;
 import interviewQuestions.InsertPosition;
 
+/**
+ * Test Class to drive TDD in InsertPosition Class.
+ * 
+ * @author sanghunlee
+ *
+ */
 public class TestInsertPosition {
+  /**
+   * Check for the class InsertPosition exist in the class.
+   */
   @Before
   public void testClass() {
     InsertPosition insertPosition = new InsertPosition();
   }
 
+  /**
+   * method to check TDD, test out the method is working.
+   */
   @Test
   public void test() {
     InsertPosition test = new InsertPosition();
