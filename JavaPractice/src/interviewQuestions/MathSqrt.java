@@ -25,11 +25,18 @@ public class MathSqrt {
     if (input < 4) {
       return 1;
     }
-
-
-
+    int left = 1;
+    int right = input;
+    int answer = 0;
+    while (left <= right) {
+      int mid = left + (right - left) / 2;
+      if (mid <= input / mid) {
+        answer = mid;
+        left = mid + 1;
+      } else {
+        right = mid - 1;
+      }
+    }
+    return answer;
   }
-
-
-
 }
