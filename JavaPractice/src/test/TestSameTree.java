@@ -13,6 +13,7 @@ import interviewQuestions.SameTree;
  *
  */
 public class TestSameTree {
+
   // check for the class exist.
   @Before
   public void testClass() {
@@ -20,6 +21,7 @@ public class TestSameTree {
   }
 
   // initalise the TreeNode p and q to compare for the result in boolean.
+
   @Test
   public void testSameTree() {
     SameTree test = new SameTree();
