@@ -20,7 +20,7 @@ public class FirstLast6 {
     FirstLast test = new FirstLast();
     // list of integer input
     int[] input = {1, 2, 6};
-    // checking the method firstLast actually working.
+    // checking the method firstLast actually working, by the boolean value.
     assertTrue("check if the number 6 place first or last index in the array",
         test.firstLast(input) == true);
   }
