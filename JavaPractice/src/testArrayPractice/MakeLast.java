@@ -10,6 +10,7 @@ import java.util.List;
  *
  */
 public class MakeLast {
+
   /**
    * method makeLast to build the arrayList that contains double of size of input array length with
    * 0 and last element same as last element in the input array.
