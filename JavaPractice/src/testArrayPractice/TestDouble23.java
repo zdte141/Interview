@@ -39,5 +39,6 @@ public class TestDouble23 {
     int[] out = {0, 2, 0, 2};
 
     assertTrue("check the new implementation works", test3.double23(out) == true);
+
   }
 }
