@@ -6,12 +6,13 @@ import org.junit.Test;
 import ArrayPractice.Start1;
 
 public class TestStart1 {
-
+  // TDD to check if there is corresponding class.
   @Before
   public void testClass() {
     Start1 start1 = new Start1();
   }
 
+  // TDD to check the method is working properly.
   @Test
   public void test() {
     Start1 test = new Start1();
