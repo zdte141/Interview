@@ -19,7 +19,8 @@ public class TestUnlucky {
 
     int[] nums = {1, 3, 4, 5};
 
-    assertTrue("check if the number is follow by 1", test.unlucky(nums) == true);
+    assertTrue("check if the number 3 is follow by 1", test.unlucky(nums) == true);
   }
+
 
 }
