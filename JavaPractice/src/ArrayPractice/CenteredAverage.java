@@ -56,7 +56,7 @@ public class CenteredAverage {
       // calculate the average centeredAverage number.
       average = (totalNum - (max + min)) / (count - 2);
     }
-    // print out the average centered number.
+    // print out the average centred number.
     System.out.println("this is centeredAverage Number " + average);
     // return the final result.
     return average;
