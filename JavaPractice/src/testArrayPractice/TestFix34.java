@@ -29,6 +29,7 @@ public class TestFix34 {
     assertTrue("method fix34 will result reallocating the element 3 just after 4 to have result",
         Arrays.equals(test.fix34(nums), result));
   }
+
   /*
    * @Test public void testAgain() { Fix34 test = new Fix34();
    * 
