@@ -23,6 +23,7 @@ public class Pre4 {
     }
     // initialise the new int array with index size count.
     int[] result = new int[count];
+    // for loop implemented to inject the values
     for (int j = 0; j < count; j++) {
       result[j] = nums[j];
     }
