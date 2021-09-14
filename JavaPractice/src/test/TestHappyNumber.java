@@ -17,7 +17,6 @@ public class TestHappyNumber {
 
     int n = 19;
 
-
     assertTrue("return true only if the method happyNumber return the expected output",
         test.isHappy(n) == true);
   }
