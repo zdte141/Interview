@@ -3,6 +3,7 @@ package interviewQuestions;
 public class Atoi {
 
   public int atoi(String s) {
+
     if (s == null || s.isEmpty()) {
       return 0;
     }
