@@ -14,24 +14,26 @@ public class TestTriplets {
 
   }
 
+
   @Test
   public void testTriplet() {
     Triplet test = new Triplet();
 
-    List<Long> ar = new ArrayList<Long>();
+    List<Integer> a = new ArrayList<>();
+    List<Integer> b = new ArrayList<>();
 
-    ar.add(1000000001L);
-    ar.add(1000000002L);
-    ar.add(1000000003L);
-    ar.add(1000000004L);
-    ar.add(1000000005L);
+    a.add(5);
+    a.add(6);
+    a.add(7);
 
-    long output = 5000000015L;
+    b.add(3);
+    b.add(6);
+    b.add(10);
 
-    assertTrue("check the sum of the integer become the long in the arrays",
-        test.triplet(ar) == output);
-
-
+    List<Integer> output = new ArrayList<Integer>();
+    output.add(1);
+    output.add(1);
+    assertTrue("compare the result", test.triplet(a, b).equals(output));
   }
 
 }
