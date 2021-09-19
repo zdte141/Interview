@@ -1,17 +1,27 @@
 package interviewQuestions;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Triplet {
 
 
-  public long triplet(List<Long> ar) {
-    long sum = 0;
 
-    for (int i = 0; i < ar.size(); i++) {
-      sum += ar.get(i);
+  public List<Integer> triplet(List<Integer> a, List<Integer> b) {
+    List<Integer> result = new ArrayList<Integer>(2);
+    int aCount = 0;
+    int bCount = 0;
+    for (int i = 0; i < a.size(); i++) {
+      if (a.get(i) > b.get(i)) {
+        aCount++;
+      } else if (a.get(i) != b.get(i)) {
+        bCount++;
+      }
     }
-    return sum;
+    result.add(aCount);
+    result.add(bCount);
+    return result;
   }
-
 }
+
+
